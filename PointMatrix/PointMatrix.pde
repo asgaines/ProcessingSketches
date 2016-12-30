@@ -15,7 +15,7 @@ void setup() {
 }
 
 void draw() {
-  background(dark ? 0 : 255);
+  background(dark ? 0 : 220);
   
   for (int i = 0; i < numDots; i++) {
     // Loop through every dot in array after one currently being manipulated 
